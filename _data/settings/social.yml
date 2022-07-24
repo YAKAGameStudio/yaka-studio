@@ -1,0 +1,26 @@
+# Social Networks Information
+twitter:
+  name: Twitter
+  username: yakagamestudio
+  link: https://twitter.com/yakagamestudio
+  image: image-twitter.png
+  card: summary
+facebook:
+  name: Facebook
+  username: yakagamestudio
+  link: https://facebook.com/yakagamestudio
+instagram:
+  name: Instagram
+  username: yakagamestudio
+  link: https://instagram.com/yakagamestudio
+linkedin:
+  name: LinkedIn
+  link: https://www.linkedin.com/showcase/yakagamestudio
+pinterest:
+  username: YAKAGameStudio
+  link: https://www.pinterest.fr/
+twitch:
+  username: yakagamestudio
+  link: https://www.twitch.tv/
+youtube:
+  link: https://www.youtube.com/channel/UCqhzZEPsQ18xUt0vc1pekCw

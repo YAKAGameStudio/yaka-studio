@@ -1,2 +1,80 @@
+# Welcome to YAKA Games Jekyll Theme !
+# Version : 1.0.0
+#
+# This is a bootstrap 5 theme for Jekyll engine
+# This config file is meant for settings that affect your whole site
+# Others settings are in /_settings/
+
 # Theme
 remote_theme: YAKAGameStudio/jekyll-theme
+
+#
+# Site Information
+#
+title: YAKA Games Studio
+description: We are a young indie game studio developing multiplatform IA empowered games and augmented reality experiences.
+timezone: Europe/Paris
+permalink: /:title
+tagline: Game developer unleashed 
+logo: "/assets/logo.png"
+favicon: "assets/icons/favicon.ico"
+language: en
+locale: en_US
+
+#
+# Collections
+#
+collections:
+  categories:
+    output: true
+  pages:
+    output: true
+
+#
+# Defaults values
+#
+defaults:
+# all posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      image: /assets/images/post.jpeg
+      author: koubyak
+  # all categories
+  - scope:
+      path: ""
+      type: categories
+    values:
+      layout: page
+      image: /assets/images/page.jpeg
+  # all pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      image: /assets/images/page.jpeg
+
+#
+# Files excluded
+#
+exclude:
+  - readme.md
+
+#
+# Plugins used
+#
+plugins:
+  - jekyll-relative-links
+  - jekyll-github-metadata
+  - jekyll-feed  
+  - jekyll-mentions
+  - jekyll-redirect-from
+
+#
+# Plugin settings
+#
+relative_links:
+  collections: true

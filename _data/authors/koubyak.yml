@@ -1,0 +1,22 @@
+name: Laurent LEFEVRE
+position: Producer
+email: laurent@yaka.games
+picture: "/assets/images/koubyak.jpeg"
+social:
+  twitter:
+    username: MrKoubyak
+    link: https://twitter.com/MrKoubyak
+  github:
+    name: GitHub
+    username: Koubyak
+    link: https://github.com/Koubyak
+  linkedin:
+    name: LinkedIn
+    link: https://www.linkedin.com/in/laurent-lefevre-officiel/
+  blog: 
+    link: https://about.me/llefevre
+description: >
+  I'm a Microsoft employee, working on Technology Strategy for large Enterprise account.
+  I focus on industry business trends and explain how you can leverage Azure Game Stack & Xbox services.
+
+  I assume that I don't know anything. This is a great habit to do a full knowledge refresh and avoiding bias.
