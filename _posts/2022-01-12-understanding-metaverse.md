@@ -98,7 +98,7 @@ Concerts in Fortnite from people like [Ariana Grande](https://www.youtube.com/wa
 
 However, there wasn't one concert, but 312,000 streams occurring simultaneously. Because of the current computation limits, the need to decrease latency and the ability (relevance) to transport such amount of data worldwide. This said, no physical concert in history can claim an audience of that size, and it is only going to get bigger.
 
-Remembering topics covered before, you can guess that AI's concert will become the cheaper and most popular way to get (crypto)money :)
+Remembering topics covered before, you can guess that AI's concert will become the cheaper and most popular way to get (crypto)money...
 
 ## Conclusion
 
