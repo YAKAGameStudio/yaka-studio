@@ -1,7 +1,7 @@
 ---
 title: Is Github Copilot a risk for game developers?
 excerpt: Some game developers may worry that Github Copilot will make their work less valuable or creative, so it's a good time to try and learn what Github Copilot can offer.
-image: /assets/images/illustrations/chabot-conversation.jpeg
+image: /assets/images/illustrations/chabot-conversation.jpg
 categories:
   - Development
 tags:
