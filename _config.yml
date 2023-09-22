@@ -1,15 +1,26 @@
-# Welcome to YAKA Games Jekyll Theme !
+# ---
+# Welcome to LYDDE Group Jekyll!
 # Version : 1.0.0
-#
-# This is a bootstrap 5 theme for Jekyll engine
-# This config file is meant for settings that affect your whole site
+# ---
+# This site is a bootstrap 5.3 theme for Jekyll engine
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that.
 # Others settings are in /_settings/
-
-# Theme
-remote_theme: MrKoubyak/Symphony
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
 
 #
-# Site Information
+# Build settings
+#
+theme: jekyll-theme-lydde
+
+# 
+# Site settings
+# 
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 #
 title: YAKA Games Studio
 description: We are a young indie game studio developing multiplatform IA empowered games and augmented reality experiences.
