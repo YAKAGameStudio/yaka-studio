@@ -1,6 +1,6 @@
 # Theme
 color:
-  primary: "#6f42c1"
-  secondary: "#000000"
-  background: "#000000"
-font: 
+  primary: "#6744F3"
+  secondary: "#020D19"
+  background: "#FFFAFA"
+  text: "#020D19"

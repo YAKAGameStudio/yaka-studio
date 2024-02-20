@@ -1,7 +1,7 @@
-# ---
-# Welcome to LYDDE Group Jekyll!
+#
+# Welcome to LYDDE Group Website system
 # Version : 1.0.0
-# ---
+#
 # This site is a bootstrap 5.3 theme for Jekyll engine
 # This config file is meant for settings that affect your whole site, values
 # which you are expected to set up once and rarely edit after that.
@@ -12,25 +12,51 @@
 #
 
 #
-# Build settings
+# Theme
 #
-theme: jekyll-theme-lydde
+# Theme can be used from GEM Package or from GitHub Repos
+# Default and recommanded usage is to rely on GitHub, to get latest version, even unpublished on GEM
+# If you rely on GEM, uncomment theme and comment remote_theme
+#
+# theme: jekyll-theme-lydde
+remote_theme: lydde/jekyll-lydde-theme
+
+#
+# Localization
+#
+# These are used to assist search engine and browser exposing the right language to user.
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+#
+language: en # The language of the webpage
+locale: en_US # The language of the webpage
+timezone: Europe/Paris # Your website timezone
+
+#
+# Hosting
+#
+url: "https://yaka.studio" # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /news/:categories/:title # the subpath of your posts, e.g. /news
 
 # 
-# Site settings
+# Site
 # 
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 #
-title: YAKA Games Studio
-description: We are a young indie game studio developing multiplatform IA empowered games and augmented reality experiences.
-timezone: Europe/Paris
-permalink: /:title
+title: YAKA Studio
 tagline: Game developer unleashed 
+description: We are a young indie game studio developing multiplatform IA empowered games and augmented reality experiences.
+
+#
+# Brand
+#
+# These are used to marketize your brand. If you look in the HTML files,
+# you will see them in the header and the NavMenu.
+#
 logo: "/assets/logo.png"
 favicon: "assets/icons/favicon.ico"
-language: en
-locale: en_US
 
 #
 # Collections
@@ -47,45 +73,57 @@ collections:
 defaults:
 # all posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: post
       image: /assets/images/post.jpeg
-      author: koubyak
+      author: MrKoubyak
   # all categories
   - scope:
-      path: ""
+      path: "_categories"
       type: categories
     values:
       layout: page
       image: /assets/images/page.jpeg
   # all pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: page
       image: /assets/images/page.jpeg
 
 #
-# Files excluded
-#
-exclude:
-  - readme.md
-
-#
 # Plugins used
 #
 plugins:
-  - jekyll-relative-links
-  - jekyll-github-metadata
-  - jekyll-feed  
-  - jekyll-mentions
-  - jekyll-redirect-from
+  - jekyll-relative-links   #https://github.com/benbalter/jekyll-relative-links
+  - jekyll-redirect-from    #https://github.com/jekyll/jekyll-redirect-from
+  - jekyll-remote-theme     #https://github.com/benbalter/jekyll-remote-theme
 
 #
 # Plugin settings
 #
 relative_links:
+  enabled:     true
   collections: true
+
+#
+# Files excluded
+#
+exclude:
+  - readme.md
+  - LICENSE
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - "*.gem"
+  - "*.gemspec"
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
