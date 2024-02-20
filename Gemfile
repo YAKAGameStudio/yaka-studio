@@ -17,6 +17,7 @@ group :jekyll_plugins do
   gem "jekyll-relative-links"
   gem "jekyll-redirect-from"
   gem "jekyll-remote-theme"
+  gem "jekyll-github-metadata"
   gem "faraday-retry"
 end
 
