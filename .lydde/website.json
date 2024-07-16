@@ -1,0 +1,78 @@
+{
+    "site": "Yaka Games Studio",
+    "domain": "Yaka.Studio",
+    "language": "English",
+    "pages":
+    [
+        {
+            "filename": "index.html",
+            "title": "Innovative Game Design for Console & Mobile",
+            "description": "Yaka Games Studio specializes in cutting-edge game design for console and mobile, leveraging Microsoft technologies to push boundaries.",
+            "keywords": ["game design", "console gaming", "mobile gaming", "Microsoft technologies", "innovative gaming"],
+            "objectives": ["Introduce Yaka Games Studio", "Highlight expertise in console and mobile game design", "Showcase technological skills with Microsoft products", "Attract game publishers and producers", "Establish Yaka Games Studio as a leader in game design"]
+        },
+        {
+            "filename": "about-us.html",
+            "title": "Crafting the Future of Gaming",
+            "description": "Learn about Yaka Games Studio's journey to becoming a pioneer in game design for console and mobile platforms.",
+            "keywords": ["about Yaka Games", "game design journey", "gaming innovation", "team expertise", "technology focus"],
+            "objectives": ["Share the company's history and mission", "Introduce the team and their expertise", "Emphasize commitment to innovation and quality", "Demonstrate success in using Microsoft technologies", "Build trust with potential clients"]
+        },
+        {
+            "filename": "our-services.html",
+            "title": "Expert Game Development Services",
+            "description": "Explore our comprehensive game development services for console and mobile, powered by the latest Microsoft technologies.",
+            "keywords": ["game development services", "console services", "mobile game development", "Microsoft game technology", "custom game solutions"],
+            "objectives": ["Detail game development services offered", "Explain the benefits of Microsoft technologies in game development", "Showcase previous successful projects", "Encourage contact for service inquiries", "Position Yaka Games Studio as a top service provider"]
+        },
+        {
+            "filename": "portfolio.html",
+            "title": "Our Game Design Portfolio",
+            "description": "Dive into our portfolio to see how we've revolutionized game design for console and mobile with Microsoft technologies.",
+            "keywords": ["game design portfolio", "console game projects", "mobile game examples", "Microsoft in gaming", "Yaka Games success"],
+            "objectives": ["Showcase a range of successful game projects", "Highlight the use of Microsoft technologies", "Demonstrate versatility in game design", "Inspire confidence in Yaka Games Studio's capabilities", "Encourage publishers and producers to collaborate"]
+        },
+        {
+            "filename": "contact.html",
+            "title": "Connect with Yaka Games Studio",
+            "description": "Reach out to Yaka Games Studio for innovative game design services on console and mobile platforms using Microsoft technologies.",
+            "keywords": ["contact Yaka Games", "game design inquiry", "console and mobile gaming", "Microsoft technology services", "collaborate with us"],
+            "objectives": ["Provide contact information", "Encourage inquiries for game design services", "Offer a form for easy communication", "Invite feedback and questions", "Strengthen relationships with potential clients"]
+        },
+        {
+            "filename": "technology.html",
+            "title": "Leading with Microsoft Technologies in Gaming",
+            "description": "Discover how Yaka Games Studio leverages Microsoft technologies to create groundbreaking games for console and mobile.",
+            "keywords": ["Microsoft gaming technologies", "innovative game tech", "console technology", "mobile gaming innovation", "Yaka Games expertise"],
+            "objectives": ["Explain the importance of Microsoft technologies in game development", "Detail specific technologies used in projects", "Showcase examples of technological innovation", "Highlight the benefits for game design", "Reinforce Yaka Games Studio's technical expertise"]
+        },
+        {
+            "filename": "careers.html",
+            "title": "Join Our Game Design Revolution",
+            "description": "Be part of Yaka Games Studio's mission to redefine game design for console and mobile. Explore careers with us.",
+            "keywords": ["game design careers", "Yaka Games jobs", "console gaming careers", "mobile game development jobs", "work in gaming"],
+            "objectives": ["List current job openings", "Describe the company culture and values", "Explain the application process", "Highlight the benefits of working at Yaka Games Studio", "Attract talented individuals passionate about gaming"]
+        },
+        {
+            "filename": "news.html",
+            "title": "Latest News from Yaka Games Studio",
+            "description": "Stay updated with the latest developments, game releases, and innovations from Yaka Games Studio.",
+            "keywords": ["Yaka Games news", "game releases", "studio updates", "gaming innovation news", "Microsoft technology news"],
+            "objectives": ["Share recent company news and updates", "Announce new game releases", "Discuss innovations in game design", "Highlight achievements and awards", "Keep the audience engaged and informed"]
+        },
+        {
+            "filename": "testimonials.html",
+            "title": "What Clients Say About Us",
+            "description": "Read testimonials from our clients and learn how Yaka Games Studio has transformed their gaming projects with our expertise.",
+            "keywords": ["client testimonials", "Yaka Games feedback", "success stories", "game project testimonials", "partner satisfaction"],
+            "objectives": ["Feature positive feedback from clients", "Highlight successful collaborations", "Demonstrate customer satisfaction", "Build trust with potential clients", "Showcase the impact of our work"]
+        },
+        {
+            "filename": "blog.html",
+            "title": "Insights & Innovations in Game Design",
+            "description": "Explore our blog for the latest insights, trends, and innovations in game design for console and mobile platforms.",
+            "keywords": ["game design blog", "gaming trends", "innovation in gaming", "Microsoft technology insights", "Yaka Games Studio news"],
+            "objectives": ["Publish articles on game design trends", "Share insights on using Microsoft technologies", "Discuss challenges and solutions in game development", "Engage with the gaming community", "Establish Yaka Games Studio as a thought leader"]
+        }
+    ]
+}
